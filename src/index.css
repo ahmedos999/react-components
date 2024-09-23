@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg{
+  background-image: url('./assets/bg-react.jpg');
+  background-size: cover;
+  
+  
+}
+
+.custom-shadow{
+  box-shadow: 
+    inset 0px 120px 62px -20px rgba(0, 0, 0, 0.95), /* Bottom shadow */
+    inset 0px -70px 62px -20px rgba(0, 0, 0, 0.95);
+
+}
